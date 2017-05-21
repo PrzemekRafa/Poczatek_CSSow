@@ -1,13 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CSSy początek</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
 
-<!-- Selektor znacznika -->
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi mollitia assumenda, cum, aut suscipit provident doloribus natus quisquam quia qui voluptas voluptate officia a illo voluptatibus. Eaque doloremque veritatis nam.</p>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>CSSy początek</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+        <!-- Selektor znacznika -->
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi mollitia assumenda, cum, aut suscipit provident doloribus natus quisquam quia qui voluptas voluptate officia a illo voluptatibus. Eaque doloremque veritatis nam.</p>
+
+        <!-- Selektor identyfikatora -->
+        <p id="identyfikator">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos culpa iusto cupiditate ex quas, quae architecto dolore, maiores saepe vitae tempora doloribus repellat sapiente at iste rerum, laboriosam enim cum.</p>
+
+        <!-- Selektor klasy -->
+        <p class="klasa">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus repudiandae placeat nemo asperiores vitae voluptatem harum molestias voluptatibus dolor sapiente tempore, dolorum, dignissimos libero nesciunt officia enim voluptatum? Voluptate, distinctio.</p>
+        
+        <p class="klasa">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus repudiandae placeat nemo asperiores vitae voluptatem harum molestias voluptatibus dolor sapiente tempore, dolorum, dignissimos libero nesciunt officia enim voluptatum? Voluptate, distinctio.</p>
+        
+        <p class="klasa">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus repudiandae placeat nemo asperiores vitae voluptatem harum molestias voluptatibus dolor sapiente tempore, dolorum, dignissimos libero nesciunt officia enim voluptatum? Voluptate, distinctio.</p>
+        
+        <p class="klasa">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus repudiandae placeat nemo asperiores vitae voluptatem harum molestias voluptatibus dolor sapiente tempore, dolorum, dignissimos libero nesciunt officia enim voluptatum? Voluptate, distinctio.</p>
+        
+        <!-- Łączenie selektorow -->
+        <a href="">Link</a><br>
+        <span>Element span</span>
+        
+        <!--selektor elementu bezpośrednio potomnego -->
+        <ul>
+            <li><a href="">Link 1</a></li>
+            <li><a href="">Link 2</a></li>
+            <li><a href="">Link 3</a></li>
+            <li><a href="">Link 4</a></li>
+            <li><a href="">Link 5</a></li>
+            <li><span><a href="">Link 6</a></span></li>
+        </ul>
+
+        <!-- selektor elementow potomnych -->
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quas nihil, adipisci iste facilis atque explicabo magnam corrupti ea a ducimus at reiciendis est rerum ab nemo voluptas itaque doloribus.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quas nihil, adipisci iste facilis atque explicabo magnam corrupti ea a ducimus at reiciendis est rerum ab nemo voluptas itaque doloribus.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor quas nihil, adipisci iste facilis atque explicabo magnam corrupti ea a ducimus at reiciendis est rerum ab nemo voluptas itaque doloribus.</p>
+        </div>
+        
+        <!-- selektory bliskiego rodzeństwa -->
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto voluptas necessitatibus voluptatem assumenda at libero dolorum nihil accusamus nostrum consectetur repellat, minus consequatur eveniet temporibus voluptatibus, reiciendis recusandae. Nulla, exercitationem.</p>
+            <a href="">link 1</a>
+            <a href="">link 2</a>
+            <a href="">link 3</a>
+        </div>
+        
+        <!-- selektory każdego rodzeństwa -->
+        <header>
+            <h2>Tytuł h2</h2>
+                <h3>tytuł h3</h3>
+                <h3>tytuł h3</h3>
+                <h3>tytuł h3</h3>
+        </header>
+        
+        <!-- selektor wykluczający -->
+        <ul id="wykluczenie">
+            <li class="list-item">bullet 1</li>
+            <li class="list-item">bullet 2</li>
+            <li class="list-item">bullet 3</li>
+            <li class="list-item">bullet 4</li>
+            <li class="list-item last">bullet 5</li>
+        </ul>
+        
+        <!-- Seleketor kolejnego elementu potomnego -->
+        <ul id="nth">
+            <li>podpunkt 1</li>
+            <li>podpunkt 2</li>
+            <li>podpunkt 3</li>
+            <li>podpunkt 4</li>
+            <li>podpunkt 5</li>
+            <li>podpunkt 6</li>
+            <li>podpunkt 7</li>
+            <li>podpunkt 8</li>
+            <li>podpunkt 9</li>
+            <li>podpunkt 10</li>
+        </ul>
+        
+    </body>
+
 </html>

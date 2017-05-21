@@ -5,3 +5,72 @@ p {
     font-size: 18px;
     background: yellow;
 }
+
+
+/* selektor identyfikatora */
+
+#identyfikator {
+    background: grey;
+    color: white;
+    font-size: 21px;
+}
+
+/* selektor klasy*/
+.klasa {
+    background: blue;
+    color: black;
+    font-size: 16px;
+}
+
+/* łączenie selektorow */
+a, span {
+    color: red;
+    text-decoration: underline;
+}
+
+/* selektor elementu bezpośrednio potomnego*/
+li > a {
+    font-size: 20px;
+    color: aqua;
+}
+
+/* selektor elementow potomnych */
+div p {
+    background: pink;
+    font-size: 30px;
+}
+
+/* selektory bliskiego rodzeństwa */
+div p + a {
+    background-color: gray;
+    color: forestgreen;
+    text-transform: uppercase;
+}
+
+/* selektor każdego rodzeństwa */
+header h2 ~ h3 {
+    font-size: 40px;
+    color: orange;
+    background: grey;
+}
+
+/* selektor wykluczający */
+#wykluczenie > li:not(.last){
+    color: coral;
+}
+
+/* selektor kolejnego elementu potomnego */
+#nth > li:nth-child(10){
+    background: red;
+    font-size: 28 px;
+}    
+
+#nth > li:nth-child(odd){
+    background: green;
+    font-size: 18 px;
+}    
+
+#nth > li:nth-child(-n+3){
+    background: none;
+    font-size: 48 px;
+}    
